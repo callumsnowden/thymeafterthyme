@@ -1,0 +1,5 @@
+*.zip
+*.dxf~
+*.kicad_sch-bak
+hardware/fp-info-cache
+hardware/\#auto_saved_files\#

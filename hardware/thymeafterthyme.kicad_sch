@@ -1,0 +1,459 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5d7ac222-0507-4d15-abeb-aaf90d577192")
+	(paper "A3")
+	(title_block
+		(title "Overall")
+		(date "2023-06-27")
+		(rev "0.1")
+		(company "SnowdenLabs")
+		(comment 1 "Thyme after Thyme")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 177.8 109.22) (xy 203.2 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "310427a1-0b63-424b-8bd7-0ad4f56d0870")
+	)
+	(wire
+		(pts
+			(xy 177.8 116.84) (xy 203.2 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "570744f5-261b-452f-b8be-22e73554be68")
+	)
+	(wire
+		(pts
+			(xy 177.8 114.3) (xy 203.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68d52c8e-c90d-421d-9912-8d0ce1d7eff4")
+	)
+	(wire
+		(pts
+			(xy 177.8 127) (xy 203.2 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a156870-327e-4038-8e9a-c30f2b974f0b")
+	)
+	(wire
+		(pts
+			(xy 177.8 124.46) (xy 203.2 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a438030f-7d68-4104-a06c-d405a2c82855")
+	)
+	(wire
+		(pts
+			(xy 177.8 120.65) (xy 203.2 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3401230-bbba-475f-9591-d0b5d581af0b")
+	)
+	(wire
+		(pts
+			(xy 177.8 106.68) (xy 203.2 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d71ff0b3-8fd5-413f-be70-2f0175e0bdcf")
+	)
+	(wire
+		(pts
+			(xy 177.8 111.76) (xy 203.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eec6f9f5-3fa1-4ae9-ae02-12c982bbbb45")
+	)
+	(wire
+		(pts
+			(xy 177.8 104.14) (xy 203.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fad4fbc9-d0c5-4875-a562-52b31cac770f")
+	)
+	(sheet
+		(at 139.7 101.6)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1e6b2948-3a73-4d2a-b623-fca0d5a4647b")
+		(property "Sheetname" "Microcontroller"
+			(at 139.7 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 139.7 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VALVE_1_EN" output
+			(at 177.8 104.14 0)
+			(uuid "8b921237-28ee-4fda-a70d-d98da3581660")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VALVE_4_EN" output
+			(at 177.8 111.76 0)
+			(uuid "6d96d85a-dd5c-4b28-abc3-3611559cce20")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VALVE_2_EN" output
+			(at 177.8 106.68 0)
+			(uuid "ad7e441c-ffb8-4f5a-ad3c-03d94283c96b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VALVE_3_EN" output
+			(at 177.8 109.22 0)
+			(uuid "449802a0-fe89-4b93-a9dc-14617df2e8a7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VALVE_AUX_EN" output
+			(at 177.8 114.3 0)
+			(uuid "3b0b4a88-7844-4ce1-98ca-92d740832dbf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PUMP_EN" output
+			(at 177.8 116.84 0)
+			(uuid "a3ca35e2-657c-4fb0-b224-07fe32062587")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISTANCE_ECHO_IN" input
+			(at 177.8 127 0)
+			(uuid "157f8057-886b-4277-8f4c-805d1a81f8fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FLOW_PULSE_IN" input
+			(at 177.8 120.65 0)
+			(uuid "a8430cd9-0c2b-4927-885f-d5515c0e8d78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DISTANCE_PULSE_OUT" output
+			(at 177.8 124.46 0)
+			(uuid "97d8da33-d0c3-4e06-8601-60c730494242")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "thymeafterthyme"
+				(path "/5d7ac222-0507-4d15-abeb-aaf90d577192"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 140.97 43.18)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2f12a85a-0255-4250-a281-38eafb39c901")
+		(property "Sheetname" "Power"
+			(at 140.97 42.4684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 140.97 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "thymeafterthyme"
+				(path "/5d7ac222-0507-4d15-abeb-aaf90d577192"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 101.6)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "736f41c3-c1f4-4de1-8181-bfcb7eb0063a")
+		(property "Sheetname" "IO"
+			(at 203.2 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "io.kicad_sch"
+			(at 203.2 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VALVE_2_EN" input
+			(at 203.2 106.68 180)
+			(uuid "2d294628-2313-4425-85bb-05d555258596")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VALVE_1_EN" input
+			(at 203.2 104.14 180)
+			(uuid "cefe83c0-8ae7-4b51-9ad8-0767e1ff6c56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VALVE_AUX_EN" input
+			(at 203.2 114.3 180)
+			(uuid "012e2dd8-c5a1-45f1-abea-811e4b87cb0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PUMP_EN" input
+			(at 203.2 116.84 180)
+			(uuid "036f215a-3749-490d-8404-d2b74f33009f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VALVE_3_EN" input
+			(at 203.2 109.22 180)
+			(uuid "219f134a-1d35-4346-8aca-13fdaaba2839")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VALVE_4_EN" input
+			(at 203.2 111.76 180)
+			(uuid "66725551-1629-4dff-b5ac-31c3e893ef0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FLOW_PULSE_IN" output
+			(at 203.2 120.65 180)
+			(uuid "141c2910-c80c-4b5c-8233-abe3fa5eb505")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISTANCE_PULSE_OUT" input
+			(at 203.2 124.46 180)
+			(uuid "e5892bab-bb4b-4368-b040-d63532fd7af9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISTANCE_ECHO_IN" output
+			(at 203.2 127 180)
+			(uuid "ecdaf580-7f87-4dd4-bf7b-7c09bab47fd9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "thymeafterthyme"
+				(path "/5d7ac222-0507-4d15-abeb-aaf90d577192"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 40.64)
+		(size 39.37 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9d687eaa-f5ae-4815-b721-ff1b66d35f8d")
+		(property "Sheetname" "Connectors"
+			(at 36.83 39.9284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 36.83 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "thymeafterthyme"
+				(path "/5d7ac222-0507-4d15-abeb-aaf90d577192"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
