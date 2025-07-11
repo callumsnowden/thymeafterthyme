@@ -2650,6 +2650,504 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Transistor_Array:ULN2003A"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 15.875 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ULN2003A"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.27 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+				(at 2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "darlington transistor array"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* SSOP*4.4x5.2mm*P0.65mm* TSSOP*4.4x5mm*P0.65mm* SOIC*W*5.3x10.2mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ULN2003A_0_1"
+				(rectangle
+					(start -7.62 -12.7)
+					(end 7.62 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.572 5.08) (xy -3.556 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.556 6.096) (xy -3.556 4.064) (xy -2.032 5.08) (xy -3.556 6.096)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 5.08) (xy 4.064 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 2.54)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.27 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -1.27 -2.286)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.508 5.08)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 5.08) (xy -0.508 10.16) (xy 2.921 10.16)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.731) (xy -1.016 6.731)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.969) (xy -1.016 5.969) (xy -0.508 6.731) (xy 0 5.969)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ULN2003A_1_1"
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "I1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "I2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "I3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "I4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "I5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "I6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "I7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 10.16 180)
+					(length 2.54)
+					(name "COM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "O1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "O2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "O3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "O4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "O5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "O6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at 10.16 -10.16 180)
+					(length 2.54)
+					(name "O7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers
@@ -3242,7 +3740,7 @@
 	)
 	(text "HBUS conn."
 		(exclude_from_sim no)
-		(at 199.644 184.912 0)
+		(at 38.354 248.412 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4889,7 +5387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V_EXT"
 			(at 93.98 69.8499 90)
 			(effects
 				(font
@@ -5139,6 +5637,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at 238.76 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b9d3ee9-6920-41e2-bf96-a46b678e980c")
+		(property "Reference" "K10"
+			(at 250.19 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HF32F-G/005-HS"
+			(at 250.19 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "sl-kicad-lib:Relay_SPST_Hongfa_HF32F-G"
+			(at 227.33 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at 238.76 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "8b333970-2416-4297-bf02-66db274ba7d4")
+		)
+		(pin "A1"
+			(uuid "b24b0bae-0ac5-44b7-bdba-3c07207e845c")
+		)
+		(pin "A2"
+			(uuid "635da3ac-9e31-44b3-82d2-a47f3bd21033")
+		)
+		(pin "14"
+			(uuid "5f63bec6-26f4-4f5e-9516-6e5c424e083c")
+		)
+		(instances
+			(project "thymeafterthyme"
+				(path "/5d7ac222-0507-4d15-abeb-aaf90d577192/9d687eaa-f5ae-4815-b721-ff1b66d35f8d"
+					(reference "K10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 175.26 99.06 0)
 		(unit 1)
@@ -5360,7 +5936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V_EXT"
 			(at 113.03 99.0599 90)
 			(effects
 				(font
@@ -5470,6 +6046,117 @@
 			(project "thymeafterthyme"
 				(path "/5d7ac222-0507-4d15-abeb-aaf90d577192/9d687eaa-f5ae-4815-b721-ff1b66d35f8d"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_Array:ULN2003A")
+		(at 248.92 193.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "583bdc33-9163-45a0-9996-19b22c69a9d2")
+		(property "Reference" "U8"
+			(at 248.92 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ULN2003A"
+			(at 248.92 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/uln2003a.pdf"
+			(at 246.38 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "High Voltage, High Current Darlington Transistor Arrays, SOIC16/SOIC16W/DIP16/TSSOP16"
+			(at 248.92 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7e03e1b5-bfd2-4ea5-b37a-d36bbd3185d3")
+		)
+		(pin "3"
+			(uuid "60552b50-325d-433c-a0d9-841ff29655e5")
+		)
+		(pin "1"
+			(uuid "12e60492-e8e1-4fec-8244-aa17d0de8e46")
+		)
+		(pin "2"
+			(uuid "1c1aa9e0-6acd-40cc-a074-b763bb57338f")
+		)
+		(pin "7"
+			(uuid "c12fffe9-f5d8-4ac7-826d-cdf8641fc8cd")
+		)
+		(pin "8"
+			(uuid "a235e898-45ec-4cd3-a789-9bf488212149")
+		)
+		(pin "13"
+			(uuid "295ea72b-d692-4aee-b4a8-0c87b06eed65")
+		)
+		(pin "15"
+			(uuid "16106878-0c64-4479-96ba-00eefa504213")
+		)
+		(pin "10"
+			(uuid "37755734-1db5-40e6-bca2-b09c6b43b0bf")
+		)
+		(pin "11"
+			(uuid "31ed94e9-66a9-47f3-a341-c1af55507afd")
+		)
+		(pin "9"
+			(uuid "e7cb1df3-788c-4193-b122-8132585e4ba5")
+		)
+		(pin "12"
+			(uuid "6d63dd3f-c8e5-4c39-9598-62e804a6310e")
+		)
+		(pin "6"
+			(uuid "a76d2650-dc5f-4cd8-9cfd-48160b234d5d")
+		)
+		(pin "14"
+			(uuid "122bcd40-941b-4d6a-95c6-af837da39b3f")
+		)
+		(pin "5"
+			(uuid "45618521-f6db-4777-9bd0-beee9eba1bb7")
+		)
+		(pin "16"
+			(uuid "9086d258-f6a8-4a8d-a9a8-a46df98aee5f")
+		)
+		(instances
+			(project ""
+				(path "/5d7ac222-0507-4d15-abeb-aaf90d577192/9d687eaa-f5ae-4815-b721-ff1b66d35f8d"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -5610,7 +6297,7 @@
 	)
 	(symbol
 		(lib_id "Relay:Relay_SPST-NO")
-		(at 109.22 133.35 0)
+		(at 109.22 139.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5620,7 +6307,7 @@
 		(fields_autoplaced yes)
 		(uuid "767cde76-c766-4be3-bbca-afd5a62d2405")
 		(property "Reference" "K7"
-			(at 120.65 132.0799 0)
+			(at 120.65 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5629,7 +6316,7 @@
 			)
 		)
 		(property "Value" "HF32F-G/005-HS"
-			(at 120.65 134.6199 0)
+			(at 120.65 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5638,7 +6325,7 @@
 			)
 		)
 		(property "Footprint" "sl-kicad-lib:Relay_SPST_Hongfa_HF32F-G"
-			(at 97.79 134.62 0)
+			(at 97.79 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5648,7 +6335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 133.35 0)
+			(at 109.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5657,7 +6344,7 @@
 			)
 		)
 		(property "Description" "Relay SPST, normally open, EN50005"
-			(at 109.22 133.35 0)
+			(at 109.22 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6307,6 +6994,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at 325.12 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d0cd58e-e625-499b-80e9-4bbd36799d88")
+		(property "Reference" "K12"
+			(at 336.55 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HF32F-G/005-HS"
+			(at 336.55 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "sl-kicad-lib:Relay_SPST_Hongfa_HF32F-G"
+			(at 313.69 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 325.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at 325.12 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "e88f59a3-bcb2-4d12-805a-3accbc5ca56f")
+		)
+		(pin "A1"
+			(uuid "36b66673-351e-4d7a-8817-21e25276cbeb")
+		)
+		(pin "A2"
+			(uuid "d8d5822d-a8b5-47fc-8b00-116d54a83c68")
+		)
+		(pin "14"
+			(uuid "c0972e4a-ffd5-4fd0-bab8-a825cec3d1c8")
+		)
+		(instances
+			(project "thymeafterthyme"
+				(path "/5d7ac222-0507-4d15-abeb-aaf90d577192/9d687eaa-f5ae-4815-b721-ff1b66d35f8d"
+					(reference "K12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 280.67 87.63 0)
 		(unit 1)
@@ -6440,6 +7205,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at 195.58 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afc05620-5007-4f03-aeea-6d6b5a51286b")
+		(property "Reference" "K9"
+			(at 207.01 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HF32F-G/005-HS"
+			(at 207.01 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "sl-kicad-lib:Relay_SPST_Hongfa_HF32F-G"
+			(at 184.15 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at 195.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "ccac7a6c-67c0-4330-88b2-9f534b292830")
+		)
+		(pin "A1"
+			(uuid "2f258e54-9616-4aae-acaf-30f67c6d52be")
+		)
+		(pin "A2"
+			(uuid "4ff5d4bf-c260-4e21-8349-db9cf4a228dd")
+		)
+		(pin "14"
+			(uuid "2790a9d6-883c-4343-a0ce-b6c2aea50a40")
+		)
+		(instances
+			(project "thymeafterthyme"
+				(path "/5d7ac222-0507-4d15-abeb-aaf90d577192/9d687eaa-f5ae-4815-b721-ff1b66d35f8d"
+					(reference "K9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 234.95 48.26 0)
 		(unit 1)
@@ -6499,6 +7342,162 @@
 			(project "thymeafterthyme"
 				(path "/5d7ac222-0507-4d15-abeb-aaf90d577192/9d687eaa-f5ae-4815-b721-ff1b66d35f8d"
 					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at 152.4 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4d8d5ab-b137-469f-b373-2d7e2500eed0")
+		(property "Reference" "K8"
+			(at 163.83 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HF32F-G/005-HS"
+			(at 163.83 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "sl-kicad-lib:Relay_SPST_Hongfa_HF32F-G"
+			(at 140.97 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at 152.4 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "4315af63-969f-4e70-9431-2c289b0ffcbf")
+		)
+		(pin "A1"
+			(uuid "49b85013-5451-4a83-b257-5d8594120267")
+		)
+		(pin "A2"
+			(uuid "44b537c1-97a0-4cc2-ae96-9d554f2bd307")
+		)
+		(pin "14"
+			(uuid "751467d7-ffc7-44ea-b81f-99cb4b1d9943")
+		)
+		(instances
+			(project "thymeafterthyme"
+				(path "/5d7ac222-0507-4d15-abeb-aaf90d577192/9d687eaa-f5ae-4815-b721-ff1b66d35f8d"
+					(reference "K8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at 367.03 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9726a0e-a6bb-4553-9642-b48ffb9aae25")
+		(property "Reference" "K13"
+			(at 378.46 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HF32F-G/005-HS"
+			(at 378.46 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "sl-kicad-lib:Relay_SPST_Hongfa_HF32F-G"
+			(at 355.6 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 367.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at 367.03 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "aa4852d9-fe10-4dbf-903d-17c1fad63731")
+		)
+		(pin "A1"
+			(uuid "41863102-0f0d-4614-b222-cb5b5fe8ca0a")
+		)
+		(pin "A2"
+			(uuid "b2f31ac4-2c7f-46b3-98a6-529898cd58d7")
+		)
+		(pin "14"
+			(uuid "43053301-46f5-4804-87a1-ada4da4c5fee")
+		)
+		(instances
+			(project "thymeafterthyme"
+				(path "/5d7ac222-0507-4d15-abeb-aaf90d577192/9d687eaa-f5ae-4815-b721-ff1b66d35f8d"
+					(reference "K13")
 					(unit 1)
 				)
 			)
@@ -7440,6 +8439,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:Relay_SPST-NO")
+		(at 281.94 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb670a34-99d8-4a51-ad53-eedc1748d0b4")
+		(property "Reference" "K11"
+			(at 293.37 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HF32F-G/005-HS"
+			(at 293.37 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "sl-kicad-lib:Relay_SPST_Hongfa_HF32F-G"
+			(at 270.51 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 281.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Relay SPST, normally open, EN50005"
+			(at 281.94 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "d3c7f2bb-0062-4601-9830-b16eaa9dce7a")
+		)
+		(pin "A1"
+			(uuid "2e70d0d4-a68f-489a-93b5-1e88b71401d5")
+		)
+		(pin "A2"
+			(uuid "1cc2d95b-dff8-44f8-b739-ad95e58699e1")
+		)
+		(pin "14"
+			(uuid "511b01d3-46ff-4b98-bc14-70beccf884b0")
+		)
+		(instances
+			(project "thymeafterthyme"
+				(path "/5d7ac222-0507-4d15-abeb-aaf90d577192/9d687eaa-f5ae-4815-b721-ff1b66d35f8d"
+					(reference "K11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 312.42 68.58 0)
 		(unit 1)
@@ -7851,7 +8928,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x08_Odd_Even")
-		(at 200.66 171.45 0)
+		(at 39.37 234.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7861,7 +8938,7 @@
 		(fields_autoplaced yes)
 		(uuid "fd9b3fdc-17ac-420b-814d-60b511516a6f")
 		(property "Reference" "J21"
-			(at 199.39 157.48 0)
+			(at 38.1 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7869,7 +8946,7 @@
 			)
 		)
 		(property "Value" "Conn_02x08_Odd_Even"
-			(at 199.39 160.02 0)
+			(at 38.1 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7877,7 +8954,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 171.45 0)
+			(at 39.37 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7886,7 +8963,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 200.66 171.45 0)
+			(at 39.37 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7895,7 +8972,7 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x08, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 200.66 171.45 0)
+			(at 39.37 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
